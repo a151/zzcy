@@ -1,0 +1,174 @@
+.pwd_input {
+  padding: 0.4rem 0.3rem;
+  cursor: pointer;
+}
+
+
+/* 密码提示 */
+
+.pwd_tips {
+  color: #333;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+}
+
+.pwd_tips img {
+  width: 0.28rem;
+  height: 0.28rem;
+  float: left;
+  margin-left: 0.03rem;
+  margin-top: 0.14rem;
+  cursor: pointer;
+}
+
+
+/* 文字提示 */
+
+.please_input {
+  font-size: 0.32rem;
+  cursor: pointer;
+}
+
+
+/* 支付密码 */
+
+.passwords {
+  width: 6.9rem;
+  height: 0.76rem;
+  margin: 0 auto 0.3rem;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  border: 1px solid #dcdcdc;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.passwords label {
+  font-size: 0.28rem;
+  text-align: left;
+  display: block;
+  margin-left: 0.2rem;
+  cursor: pointer;
+}
+
+
+/* 密码输入框 */
+
+input {
+  width: 5.4rem;
+  height: 0rem;
+  line-height: 0.48rem;
+  cursor: pointer;
+}
+
+.realInput {
+  /* -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none; */
+  height: 0.48rem;
+  display: block;
+  resize: none;
+  outline: none;
+  border: 0;
+  z-index: 0;
+  /* padding: 0.61rem 0; */
+  background: none;
+  margin-left: -30%;
+  caret-color: #fff;
+  color: #000;
+  opacity: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: fixed;
+  bottom: 0;
+  font-size: 0.28rem;
+  cursor: pointer;
+}
+
+.input-active {
+  border: 0.02rem solid #cfcfd3;
+  cursor: pointer;
+}
+
+
+/* 6位支付密码 */
+
+.write-input {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.write-input li {
+  width: 1.13rem;
+  height: 0.48rem;
+  background-color: #fff;
+  padding-bottom: 0.06rem;
+  line-height: 0.48rem;
+  text-align: center;
+  font-size: 0.16rem;
+  border-right: solid 1px #dcdcdc;
+  list-style-type: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.write-input li:last-child {
+  border: none;
+}
+
+.disInput {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  resize: none;
+  outline: none;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 0.06rem;
+  text-align: center;
+  font-size: 0.5rem;
+  background: none !important;
+  cursor: pointer;
+}
+
+
+/* 忘记密码 */
+
+.forget {
+  float: right;
+  margin: 0.1rem 0 0.7rem;
+  font-size: 0.32rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.passWordInput {
+  position: fixed;
+  background: #fff;
+  bottom: -250px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translate3d(-50%);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: 0.2s ease-out;
+  z-index: 1111;
+  /* padding-bottom: 10px; */
+}
+
+.show {
+  bottom: 0px;
+}
+
+.warning {
+  color: red;
+  font-size: 0.26rem;
+  text-align: left;
+}
